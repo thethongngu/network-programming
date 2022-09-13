@@ -1,6 +1,8 @@
 # network-programming
 
-- Project 01: Implement custom pipe operation (`|`) in Unix environment
-- Project 02: Implement chat system between users by single process (`select()`) and multiple processes (`fork()`)
-- Project 03: Implement simple HTTP server using Boost async IO library
-- Project 04: Implement simple Proxy and FTP file transfer using SOCKS4 protocol and Boost async IO library
+1. `chat` Handle sending messages between clients by multiple processes and single process.
+2. `http_server` Simple HTTP server to send and receive HTTP requests. (using Boost async IO).
+3. `numbered_pipe` Customized pipe operator in Unix, piped a command to n-th command in the future.
+4. `sock4` Simple Proxy using SOCKS4 protocol (using Boost async IO).
+
+
